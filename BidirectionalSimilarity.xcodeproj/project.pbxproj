@@ -9,6 +9,29 @@
 /* Begin PBXBuildFile section */
 		26DF42D8172C342000259FAB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DF42D7172C342000259FAB /* main.cpp */; };
 		26DF42DA172C342000259FAB /* BidirectionalSimilarity.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 26DF42D9172C342000259FAB /* BidirectionalSimilarity.1 */; };
+		26DF42E7172C343900259FAB /* RosaniPatchTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DF42E1172C343900259FAB /* RosaniPatchTools.cpp */; };
+		26DF42E8172C343900259FAB /* RosaniTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DF42E2172C343900259FAB /* RosaniTools.cpp */; };
+		26DF42E9172C343900259FAB /* RosaniDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DF42E4172C343900259FAB /* RosaniDraw.cpp */; };
+		26DF42FD172C346600259FAB /* libopencv_calib3d.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42EB172C346600259FAB /* libopencv_calib3d.2.4.5.dylib */; };
+		26DF42FE172C346600259FAB /* libopencv_contrib.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42EC172C346600259FAB /* libopencv_contrib.2.4.5.dylib */; };
+		26DF42FF172C346600259FAB /* libopencv_core.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42ED172C346600259FAB /* libopencv_core.2.4.5.dylib */; };
+		26DF4300172C346600259FAB /* libopencv_features2d.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42EE172C346600259FAB /* libopencv_features2d.2.4.5.dylib */; };
+		26DF4301172C346600259FAB /* libopencv_flann.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42EF172C346600259FAB /* libopencv_flann.2.4.5.dylib */; };
+		26DF4302172C346600259FAB /* libopencv_gpu.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42F0172C346600259FAB /* libopencv_gpu.2.4.5.dylib */; };
+		26DF4303172C346600259FAB /* libopencv_highgui.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42F1172C346600259FAB /* libopencv_highgui.2.4.5.dylib */; };
+		26DF4304172C346600259FAB /* libopencv_imgproc.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42F2172C346600259FAB /* libopencv_imgproc.2.4.5.dylib */; };
+		26DF4305172C346600259FAB /* libopencv_legacy.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42F3172C346600259FAB /* libopencv_legacy.2.4.5.dylib */; };
+		26DF4306172C346600259FAB /* libopencv_ml.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42F4172C346600259FAB /* libopencv_ml.2.4.5.dylib */; };
+		26DF4307172C346600259FAB /* libopencv_nonfree.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42F5172C346600259FAB /* libopencv_nonfree.2.4.5.dylib */; };
+		26DF4308172C346600259FAB /* libopencv_objdetect.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42F6172C346600259FAB /* libopencv_objdetect.2.4.5.dylib */; };
+		26DF4309172C346600259FAB /* libopencv_photo.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42F7172C346600259FAB /* libopencv_photo.2.4.5.dylib */; };
+		26DF430A172C346600259FAB /* libopencv_stitching.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42F8172C346600259FAB /* libopencv_stitching.2.4.5.dylib */; };
+		26DF430B172C346600259FAB /* libopencv_superres.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42F9172C346600259FAB /* libopencv_superres.2.4.5.dylib */; };
+		26DF430C172C346600259FAB /* libopencv_ts.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42FA172C346600259FAB /* libopencv_ts.2.4.5.dylib */; };
+		26DF430D172C346600259FAB /* libopencv_video.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42FB172C346600259FAB /* libopencv_video.2.4.5.dylib */; };
+		26DF430E172C346600259FAB /* libopencv_videostab.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42FC172C346600259FAB /* libopencv_videostab.2.4.5.dylib */; };
+		26DF4313172C34A400259FAB /* BidirectSimilarity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DF430F172C34A400259FAB /* BidirectSimilarity.cpp */; };
+		26DF4314172C34A400259FAB /* PatchMatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DF4312172C34A400259FAB /* PatchMatch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +51,35 @@
 		26DF42D4172C342000259FAB /* BidirectionalSimilarity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BidirectionalSimilarity; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DF42D7172C342000259FAB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		26DF42D9172C342000259FAB /* BidirectionalSimilarity.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BidirectionalSimilarity.1; sourceTree = "<group>"; };
+		26DF42E1172C343900259FAB /* RosaniPatchTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RosaniPatchTools.cpp; path = ../../Rosani.Lib/RosaniPatchTools.cpp; sourceTree = "<group>"; };
+		26DF42E2172C343900259FAB /* RosaniTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RosaniTools.cpp; path = ../../Rosani.Lib/RosaniTools.cpp; sourceTree = "<group>"; };
+		26DF42E3172C343900259FAB /* RosaniTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosaniTools.h; path = ../../Rosani.Lib/RosaniTools.h; sourceTree = "<group>"; };
+		26DF42E4172C343900259FAB /* RosaniDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RosaniDraw.cpp; path = ../../Rosani.Lib/RosaniDraw.cpp; sourceTree = "<group>"; };
+		26DF42E5172C343900259FAB /* RosaniPatchTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosaniPatchTools.h; path = ../../Rosani.Lib/RosaniPatchTools.h; sourceTree = "<group>"; };
+		26DF42E6172C343900259FAB /* RosaniDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosaniDraw.h; path = ../../Rosani.Lib/RosaniDraw.h; sourceTree = "<group>"; };
+		26DF42EB172C346600259FAB /* libopencv_calib3d.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_calib3d.2.4.5.dylib; path = /opt/local/lib/libopencv_calib3d.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42EC172C346600259FAB /* libopencv_contrib.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_contrib.2.4.5.dylib; path = /opt/local/lib/libopencv_contrib.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42ED172C346600259FAB /* libopencv_core.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.5.dylib; path = /opt/local/lib/libopencv_core.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42EE172C346600259FAB /* libopencv_features2d.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_features2d.2.4.5.dylib; path = /opt/local/lib/libopencv_features2d.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42EF172C346600259FAB /* libopencv_flann.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_flann.2.4.5.dylib; path = /opt/local/lib/libopencv_flann.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42F0172C346600259FAB /* libopencv_gpu.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_gpu.2.4.5.dylib; path = /opt/local/lib/libopencv_gpu.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42F1172C346600259FAB /* libopencv_highgui.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.5.dylib; path = /opt/local/lib/libopencv_highgui.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42F2172C346600259FAB /* libopencv_imgproc.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.5.dylib; path = /opt/local/lib/libopencv_imgproc.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42F3172C346600259FAB /* libopencv_legacy.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_legacy.2.4.5.dylib; path = /opt/local/lib/libopencv_legacy.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42F4172C346600259FAB /* libopencv_ml.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_ml.2.4.5.dylib; path = /opt/local/lib/libopencv_ml.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42F5172C346600259FAB /* libopencv_nonfree.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_nonfree.2.4.5.dylib; path = /opt/local/lib/libopencv_nonfree.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42F6172C346600259FAB /* libopencv_objdetect.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_objdetect.2.4.5.dylib; path = /opt/local/lib/libopencv_objdetect.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42F7172C346600259FAB /* libopencv_photo.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_photo.2.4.5.dylib; path = /opt/local/lib/libopencv_photo.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42F8172C346600259FAB /* libopencv_stitching.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_stitching.2.4.5.dylib; path = /opt/local/lib/libopencv_stitching.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42F9172C346600259FAB /* libopencv_superres.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_superres.2.4.5.dylib; path = /opt/local/lib/libopencv_superres.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42FA172C346600259FAB /* libopencv_ts.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_ts.2.4.5.dylib; path = /opt/local/lib/libopencv_ts.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42FB172C346600259FAB /* libopencv_video.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.2.4.5.dylib; path = /opt/local/lib/libopencv_video.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF42FC172C346600259FAB /* libopencv_videostab.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videostab.2.4.5.dylib; path = /opt/local/lib/libopencv_videostab.2.4.5.dylib; sourceTree = "<absolute>"; };
+		26DF430F172C34A400259FAB /* BidirectSimilarity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BidirectSimilarity.cpp; sourceTree = "<group>"; };
+		26DF4310172C34A400259FAB /* PatchMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatchMatch.h; sourceTree = "<group>"; };
+		26DF4311172C34A400259FAB /* BidirectSimilarity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BidirectSimilarity.h; sourceTree = "<group>"; };
+		26DF4312172C34A400259FAB /* PatchMatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PatchMatch.cpp; sourceTree = "<group>"; };
+		26DF4315172C34D500259FAB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +87,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26DF42FD172C346600259FAB /* libopencv_calib3d.2.4.5.dylib in Frameworks */,
+				26DF42FE172C346600259FAB /* libopencv_contrib.2.4.5.dylib in Frameworks */,
+				26DF42FF172C346600259FAB /* libopencv_core.2.4.5.dylib in Frameworks */,
+				26DF4300172C346600259FAB /* libopencv_features2d.2.4.5.dylib in Frameworks */,
+				26DF4301172C346600259FAB /* libopencv_flann.2.4.5.dylib in Frameworks */,
+				26DF4302172C346600259FAB /* libopencv_gpu.2.4.5.dylib in Frameworks */,
+				26DF4303172C346600259FAB /* libopencv_highgui.2.4.5.dylib in Frameworks */,
+				26DF4304172C346600259FAB /* libopencv_imgproc.2.4.5.dylib in Frameworks */,
+				26DF4305172C346600259FAB /* libopencv_legacy.2.4.5.dylib in Frameworks */,
+				26DF4306172C346600259FAB /* libopencv_ml.2.4.5.dylib in Frameworks */,
+				26DF4307172C346600259FAB /* libopencv_nonfree.2.4.5.dylib in Frameworks */,
+				26DF4308172C346600259FAB /* libopencv_objdetect.2.4.5.dylib in Frameworks */,
+				26DF4309172C346600259FAB /* libopencv_photo.2.4.5.dylib in Frameworks */,
+				26DF430A172C346600259FAB /* libopencv_stitching.2.4.5.dylib in Frameworks */,
+				26DF430B172C346600259FAB /* libopencv_superres.2.4.5.dylib in Frameworks */,
+				26DF430C172C346600259FAB /* libopencv_ts.2.4.5.dylib in Frameworks */,
+				26DF430D172C346600259FAB /* libopencv_video.2.4.5.dylib in Frameworks */,
+				26DF430E172C346600259FAB /* libopencv_videostab.2.4.5.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +114,8 @@
 		26DF42CB172C342000259FAB = {
 			isa = PBXGroup;
 			children = (
+				26DF42EA172C343D00259FAB /* OpenCV.framework */,
+				26DF42E0172C342C00259FAB /* Rosani.Lib */,
 				26DF42D6172C342000259FAB /* BidirectionalSimilarity */,
 				26DF42D5172C342000259FAB /* Products */,
 			);
@@ -61,9 +133,52 @@
 			isa = PBXGroup;
 			children = (
 				26DF42D7172C342000259FAB /* main.cpp */,
+				26DF4311172C34A400259FAB /* BidirectSimilarity.h */,
+				26DF430F172C34A400259FAB /* BidirectSimilarity.cpp */,
+				26DF4310172C34A400259FAB /* PatchMatch.h */,
+				26DF4312172C34A400259FAB /* PatchMatch.cpp */,
+				26DF4315172C34D500259FAB /* 2.png */,
 				26DF42D9172C342000259FAB /* BidirectionalSimilarity.1 */,
 			);
 			path = BidirectionalSimilarity;
+			sourceTree = "<group>";
+		};
+		26DF42E0172C342C00259FAB /* Rosani.Lib */ = {
+			isa = PBXGroup;
+			children = (
+				26DF42E1172C343900259FAB /* RosaniPatchTools.cpp */,
+				26DF42E2172C343900259FAB /* RosaniTools.cpp */,
+				26DF42E3172C343900259FAB /* RosaniTools.h */,
+				26DF42E4172C343900259FAB /* RosaniDraw.cpp */,
+				26DF42E5172C343900259FAB /* RosaniPatchTools.h */,
+				26DF42E6172C343900259FAB /* RosaniDraw.h */,
+			);
+			name = Rosani.Lib;
+			sourceTree = "<group>";
+		};
+		26DF42EA172C343D00259FAB /* OpenCV.framework */ = {
+			isa = PBXGroup;
+			children = (
+				26DF42EB172C346600259FAB /* libopencv_calib3d.2.4.5.dylib */,
+				26DF42EC172C346600259FAB /* libopencv_contrib.2.4.5.dylib */,
+				26DF42ED172C346600259FAB /* libopencv_core.2.4.5.dylib */,
+				26DF42EE172C346600259FAB /* libopencv_features2d.2.4.5.dylib */,
+				26DF42EF172C346600259FAB /* libopencv_flann.2.4.5.dylib */,
+				26DF42F0172C346600259FAB /* libopencv_gpu.2.4.5.dylib */,
+				26DF42F1172C346600259FAB /* libopencv_highgui.2.4.5.dylib */,
+				26DF42F2172C346600259FAB /* libopencv_imgproc.2.4.5.dylib */,
+				26DF42F3172C346600259FAB /* libopencv_legacy.2.4.5.dylib */,
+				26DF42F4172C346600259FAB /* libopencv_ml.2.4.5.dylib */,
+				26DF42F5172C346600259FAB /* libopencv_nonfree.2.4.5.dylib */,
+				26DF42F6172C346600259FAB /* libopencv_objdetect.2.4.5.dylib */,
+				26DF42F7172C346600259FAB /* libopencv_photo.2.4.5.dylib */,
+				26DF42F8172C346600259FAB /* libopencv_stitching.2.4.5.dylib */,
+				26DF42F9172C346600259FAB /* libopencv_superres.2.4.5.dylib */,
+				26DF42FA172C346600259FAB /* libopencv_ts.2.4.5.dylib */,
+				26DF42FB172C346600259FAB /* libopencv_video.2.4.5.dylib */,
+				26DF42FC172C346600259FAB /* libopencv_videostab.2.4.5.dylib */,
+			);
+			name = OpenCV.framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +233,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				26DF42D8172C342000259FAB /* main.cpp in Sources */,
+				26DF42E7172C343900259FAB /* RosaniPatchTools.cpp in Sources */,
+				26DF42E8172C343900259FAB /* RosaniTools.cpp in Sources */,
+				26DF42E9172C343900259FAB /* RosaniDraw.cpp in Sources */,
+				26DF4313172C34A400259FAB /* BidirectSimilarity.cpp in Sources */,
+				26DF4314172C34A400259FAB /* PatchMatch.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +306,12 @@
 		26DF42DE172C342000259FAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -193,6 +319,12 @@
 		26DF42DF172C342000259FAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

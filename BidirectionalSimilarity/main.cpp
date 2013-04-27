@@ -7,12 +7,14 @@
 //
 
 #include <iostream>
+#include "BidirectSimilarity.h"
 
 int main(int argc, const char * argv[])
 {
+    BidirectSimilarity bi_similarity = BidirectSimilarity();
+    bi_similarity.summerization("/Users/xup6qup3/Dropbox/code/Dev.temp/BidirectionalSimilarity/BidirectionalSimilarity/2.png", 0.5);
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
+
     return 0;
 }
 
