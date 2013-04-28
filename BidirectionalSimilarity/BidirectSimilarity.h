@@ -24,11 +24,11 @@ public:
 private:
 
     
-    
-    
     void gradResize (const Mat& src, Mat& dst);
     
     bool withinTest (const Mat& img, const Point& pt);
+    
+    dynamicArray2D<Point> cohereFindSimilarity (const Mat& src, const Mat& dst);
     
     
     Mat src_img;

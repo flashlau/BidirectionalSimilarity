@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2659AD28172D67C700E42E95 /* PatchMatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2659AD26172D67C700E42E95 /* PatchMatch.cpp */; };
 		26DF42D8172C342000259FAB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DF42D7172C342000259FAB /* main.cpp */; };
 		26DF42DA172C342000259FAB /* BidirectionalSimilarity.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 26DF42D9172C342000259FAB /* BidirectionalSimilarity.1 */; };
 		26DF42E7172C343900259FAB /* RosaniPatchTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DF42E1172C343900259FAB /* RosaniPatchTools.cpp */; };
@@ -31,7 +32,6 @@
 		26DF430D172C346600259FAB /* libopencv_video.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42FB172C346600259FAB /* libopencv_video.2.4.5.dylib */; };
 		26DF430E172C346600259FAB /* libopencv_videostab.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DF42FC172C346600259FAB /* libopencv_videostab.2.4.5.dylib */; };
 		26DF4313172C34A400259FAB /* BidirectSimilarity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DF430F172C34A400259FAB /* BidirectSimilarity.cpp */; };
-		26DF4314172C34A400259FAB /* PatchMatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DF4312172C34A400259FAB /* PatchMatch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +48,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2659AD26172D67C700E42E95 /* PatchMatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PatchMatch.cpp; path = ../../PatchMatch/PatchMatch/PatchMatch.cpp; sourceTree = "<group>"; };
+		2659AD27172D67C700E42E95 /* PatchMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatchMatch.h; path = ../../PatchMatch/PatchMatch/PatchMatch.h; sourceTree = "<group>"; };
 		26DF42D4172C342000259FAB /* BidirectionalSimilarity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BidirectionalSimilarity; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DF42D7172C342000259FAB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		26DF42D9172C342000259FAB /* BidirectionalSimilarity.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BidirectionalSimilarity.1; sourceTree = "<group>"; };
@@ -76,10 +78,10 @@
 		26DF42FB172C346600259FAB /* libopencv_video.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.2.4.5.dylib; path = /opt/local/lib/libopencv_video.2.4.5.dylib; sourceTree = "<absolute>"; };
 		26DF42FC172C346600259FAB /* libopencv_videostab.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videostab.2.4.5.dylib; path = /opt/local/lib/libopencv_videostab.2.4.5.dylib; sourceTree = "<absolute>"; };
 		26DF430F172C34A400259FAB /* BidirectSimilarity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BidirectSimilarity.cpp; sourceTree = "<group>"; };
-		26DF4310172C34A400259FAB /* PatchMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatchMatch.h; sourceTree = "<group>"; };
 		26DF4311172C34A400259FAB /* BidirectSimilarity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BidirectSimilarity.h; sourceTree = "<group>"; };
-		26DF4312172C34A400259FAB /* PatchMatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PatchMatch.cpp; sourceTree = "<group>"; };
 		26DF4315172C34D500259FAB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		26E21404172D0BBC000C612F /* tl3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tl3.jpg; path = repetitionExtract/tl3.jpg; sourceTree = "<group>"; };
+		26E21405172D0C0B000C612F /* cir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cir.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +137,10 @@
 				26DF42D7172C342000259FAB /* main.cpp */,
 				26DF4311172C34A400259FAB /* BidirectSimilarity.h */,
 				26DF430F172C34A400259FAB /* BidirectSimilarity.cpp */,
-				26DF4310172C34A400259FAB /* PatchMatch.h */,
-				26DF4312172C34A400259FAB /* PatchMatch.cpp */,
+				2659AD27172D67C700E42E95 /* PatchMatch.h */,
+				2659AD26172D67C700E42E95 /* PatchMatch.cpp */,
+				26E21404172D0BBC000C612F /* tl3.jpg */,
+				26E21405172D0C0B000C612F /* cir.jpg */,
 				26DF4315172C34D500259FAB /* 2.png */,
 				26DF42D9172C342000259FAB /* BidirectionalSimilarity.1 */,
 			);
@@ -237,7 +241,7 @@
 				26DF42E8172C343900259FAB /* RosaniTools.cpp in Sources */,
 				26DF42E9172C343900259FAB /* RosaniDraw.cpp in Sources */,
 				26DF4313172C34A400259FAB /* BidirectSimilarity.cpp in Sources */,
-				26DF4314172C34A400259FAB /* PatchMatch.cpp in Sources */,
+				2659AD28172D67C700E42E95 /* PatchMatch.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +352,7 @@
 				26DF42DF172C342000259FAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
