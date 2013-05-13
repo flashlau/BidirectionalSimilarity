@@ -9,8 +9,10 @@
 #ifndef BidirectSimilarity_BidirectSimilarity_h
 #define BidirectSimilarity_BidirectSimilarity_h
 
-#include "RosaniTools.h"
+#include "Rosaniline.h"
 #include "PatchMatch.h"
+
+#include <sstream>
 
 class BidirectSimilarity {
     
@@ -18,26 +20,30 @@ public:
     
     BidirectSimilarity();
     
-    void summerization (const string &img_path, double resize_ratio);
+    Mat retargeting (const Mat& input_img, double resize_ratio);
     
+    Mat reshuffling (const Mat& src_img, const Mat& shuffled_img);
     
 private:
 
+
     
-    void gradResize (const Mat& src, Mat& dst);
-    
-    bool withinTest (const Mat& img, const Point& pt);
-    
-    dynamicArray2D<Point> cohereFindSimilarity (const Mat& src, const Mat& dst);
+    double gradualResize (const cv::Mat &src, cv::Mat &dst, RosMat<Point>& reconst_src, RosMat<Point>& reconst_dst, int itr );
     
     
-    Mat src_img;
+    double cohereTerm (const Mat& src, const Mat& dst, RosMat<Point>& reconst_dst, Mat& cohere_mat, Mat& cohere_count);
     
-    patchTools patchTool;
+    double completeTerm (const Mat& src, const Mat& dst, RosMat<Point>& reconst_src, Mat& complete_mat, Mat& complete_count);
+    
+
+    
+    RosMat<Point> cohereFindSimilarity (const Mat& src, const Mat& dst);
     
     
 
-    constexpr static const int    PATCHWIDTH         = 7;
+    const static int    PATCHWIDTH         = 7;
+    const static int    PYRAMID_LEVEL      = 4;
+    const static int    MAX_ITERATION      = 40;
     
 };
 
